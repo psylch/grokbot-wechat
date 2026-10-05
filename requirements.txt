@@ -1,0 +1,2 @@
+cryptography>=41      # AES-128-ECB decrypt of WeChat CDN media (media.py)
+qrcode[pil]>=7        # QR rendering for bind.py

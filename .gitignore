@@ -1,0 +1,37 @@
+# secrets
+.env
+credentials.json
+*secrets*.json
+verify_code.txt
+qr.png
+qr.tmp.png
+qr_url.txt
+
+# runtime state (contains message text, user ids, context tokens)
+state.json
+state.json.tmp
+pending.json
+pending.json.tmp
+outbox.json
+outbox.json.tmp
+forward_seen.json
+history.log
+forward.heartbeat
+
+# logs / pids
+*.log
+*.out
+*.pid
+
+# downloaded WeChat media
+attachments/
+
+# old copies
+*.bak
+*.bak.*
+backup-*/
+
+# python
+__pycache__/
+*.pyc
+.venv/
